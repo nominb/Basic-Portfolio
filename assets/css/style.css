@@ -1,51 +1,215 @@
-/*
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this CSS file and the HTML to see how things line up.
-Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
-*/
 
-body {
-    padding: 80px;
-    margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    color:black;
-    background:lightgray;
-    border: #dddddd;
-  }
+.container{
+    max-width:960px;
+    margin:0 auto;
+}
 
-
-  
-  #header {
-    background:#4aaaa5;
-    padding: 0;
+#header {
+    background:#ffffff;
+    border-color: #cccccc;
+    padding: 30px;
     margin:0px;
     float:left;
-
-  }
-
-  #header-content {
-      background:white;
-      text-align:right;
-      font-size:10px;
-
-  }
-  
-  #contact {
-    padding: auto;
-    margin: 0;
-    height: 300px;
-    weight:200px;
-    margin-bottom: 20px;
+    color: white;
     font-size: 28px;
-    color: #eee;
-    text-align: left;
-    background: whitesmoke;
-  }
-  
-  
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding:15px;
+    color:#777777;
+    font-size:18px;
+}
 
+.right {
+    float:right;
+    padding:35px;
+
+}
+
+.header-h1 {
+    background: #4aaaa5;
+    padding: 30px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    float:left;
+}
+
+.center {
+    border-right:1px solid #777777;
+    border-left:1px solid #777777;
+}
+
+.right{
+    padding-right: 0;
+    padding-left:15px;
+}
+
+a:visited {
+   color:#777777;
+}
+
+a:hover {
+    color: #4aaaa5;
+
+}
+
+footer{
+    background:#666666;
+    padding-top:35px;
+    padding-bottom:10px;
+    border-top: 8px solid #4aaaa5;
+    text-align:center;
+    font-size:12px;
+    color:#b0acb0;
+    
+}
+
+
+.about{
+    font-size:30px;
+    font-weight:bold;
+    color:#4aaaa5;
+    margin-bottom:33px;
+    margin-left:33px;
+    margin-right:33px;
+    padding-top:40px;
+    padding-bottom:40px;
+    border-bottom: 3px solid #e1e1e1;
+}
+
+.img-about {
+    max-width:40%;
+    height:auto;
+    float:left;
+    padding-top:10px;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.content-main{
+    background:white;
+    padding-bottom:40px;
+    border:1px solid #cccccc;
+    overflow: auto;
+}
+
+.p {
+    color:#777777;
+    font-size:20px;
+    line-height:35px;
+    margin-left: 30px;
+    margin-right:30px; 
+}
+
+input [type=submit] {
+    background:#4aaaa5;
+    height:40px;
+    width:120px;
+    font-size:15px;
+    color:white;
+    padding: 12px, 20px, 30px,20px;
+    cursor:pointer;
+    
+}
+
+input[type=submit]:hover{
+    background:#357b77;
+}
+
+.contact{
+    color:#4aaaa5;
+    font: size 30px;
+    font-weight:bold;
+    margin-bottom:20px;
+    margin-left:30px;
+    margin-right:30px;
+    padding-bottom:30px;
+    padding-top:40px;
+    border-bottom:3px solid #e1e1e1;
+
+}
+
+.input{
+    font-size:16px;
+    width:99%;
+    height:36px;
+    margin-top:10px;
+    margin-bottom:20px;
+    border:2px solid color #e1e1e1;
+
+}
+
+.input:focus {
+    outline-color:#d4eceb;
+}
+
+.content-form{
+    color:#777777;
+    margin-left:30px;
+    margin-right:30px;
+    font-size:18px;
+}
+
+.message{
+    height:200px;
+}
+
+.container-portfolio{
+    background:white;
+    overflow:auto;
+    padding-bottom:10px;
+    border:2px solid#cccccc;
+
+}
+.portfolio{
+    color:#4aaaa5;
+    font:30px;
+    font-weight:bold;
+    margin-bottom:30px;
+    margin-right:30px;
+    padding-top:40px;
+    padding-bottom:40px;
+    border-bottom:4px solid #e1e1e1;
+}
+
+.img-port{
+    height:100%;
+    width:100%;
+    display:block;
+}
+
+.col-4{
+    height:200px;
+    width:33%;
+    float:left;
+    margin-bottom:50px;
+
+}
+
+.mid{
+    margin-left:40px;
+    margin-right:40px;
+}
+
+span{
+    background:#4aaaa5;
+    height:60px;
+    position:relative;
+    top:-70px;
+    line-height:60px;
+    font-size:25px;
+    text-align:center;
+    display:block;
+}
+.selfie{
+    height: 200px;
+    width: 250px;
+}
+}
+
+
+
+
+  
 
 
   
